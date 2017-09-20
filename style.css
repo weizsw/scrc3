@@ -4,6 +4,10 @@
   color: red;
 }*/
 
+img {
+  border: 4px;
+  border-style: none;
+}
 p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
