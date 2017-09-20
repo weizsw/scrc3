@@ -7,20 +7,24 @@
 img {
   border: 4px;
   border-style: none;
+  text-align: center;
 }
 p {
   color: black;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  text-align: center;
+
 
 }
 
 h1 {
-  font-family: Georgia, "Times New Roman", serif;
   font-family: 'IM Fell Great Primer', serif;
+  text-align: center;
 }
 
 body {
   background-color: #ebe3c3;
+  text-align: center;
 }
 
 #container {
@@ -54,7 +58,7 @@ body {
   background-color: #98bf21;
   font-weight: bold;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Pacifico', Arial, cursive;
   padding: 4px;
   text-decoration: none;
 }
