@@ -5,9 +5,15 @@
 }*/
 
 img {
+  display: block;
   border: 4px;
   border-style: none;
   text-align: center;
+}
+
+@media screen and (min-wdith:800px) {
+  img {float: left;
+  }
 }
 p {
   color: black;
@@ -23,7 +29,7 @@ h1 {
 }
 
 body {
-  background-color: #ebe3c3;
+  background-color: #ffffff;
   text-align: center;
 }
 
@@ -36,6 +42,8 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+
 
 .caption {
   font-family: Georgia, "Times New Roman", serif;
@@ -55,7 +63,7 @@ body {
 #nav a:link {
   display: block;
   color: #ffffff;
-  background-color: #98bf21;
+  background-color: #e5e5e5;
   font-weight: bold;
   text-align: center;
   font-family: 'Pacifico', Arial, cursive;
@@ -64,6 +72,6 @@ body {
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #7a991a;
+  background-color: #191919;
   text-decoration: underline;
 }
