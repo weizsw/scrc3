@@ -4,8 +4,20 @@
   color: red;
 }*/
 
+.container1 {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 600px) {
+	.container1 {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
 img {
-  display: block;
+  display: none;
   border: 4px;
   border-style: none;
   text-align: center;
@@ -18,14 +30,19 @@ img {
 p {
   color: black;
   font-family: 'Roboto Condensed', Arial, sans-serif;
-  text-align: center;
-
-
+  text-align: center;}
 }
+
+.container {
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+
 
 h1 {
   font-family: 'IM Fell Great Primer', serif;
   text-align: center;
+
 }
 
 body {
@@ -43,9 +60,43 @@ body {
   margin: 0 auto;
 }
 
+* {
+	box-sizing: border-box;
+}
 
+.container1 {
+	padding: 10px;
+	background: #ffffff;
+  border-radius: 5px;
+	margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+  text-align: center;
+}
 
-.caption {
+.container2 {
+	padding: 10px;
+	background: #ffffff;
+  border-radius: 5px;
+	margin: 45px auto;
+}
+
+.container3 {
+	padding: 10px;
+	background: #ffffff;
+  border-radius: 5px;
+	margin: 45px auto;
+  text-align: center;
+}
+
+.item {
+	color: #000;
+	padding: 15px;
+	margin: 5px;
+	background: #f1b82d;
+	border-radius: 3px;
+}
+
+#caption {
   font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
   text-align: right;
@@ -59,6 +110,7 @@ body {
 #nav li {
   list-style-type: none;
 }
+
 
 #nav a:link {
   display: block;
